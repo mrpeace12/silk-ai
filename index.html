@@ -1,77 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SILK AI</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              silk: {
-                50: '#f0f4ff',
-                100: '#e1e8fe',
-                200: '#c7d5fd',
-                300: '#a1bbfb',
-                400: '#7599f7',
-                500: '#4d72f1',
-                600: '#354fe5',
-                700: '#2a3db6',
-                800: '#273493',
-                900: '#253075',
-                950: '#161b44',
-              },
-            }
-          }
-        }
-      }
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-        body { 
-          font-family: 'Plus Jakarta Sans', sans-serif; 
-          transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .silk-gradient { 
-          background: linear-gradient(135deg, #4d72f1 0%, #a855f7 100%); 
-        }
-        .glass { 
-          background: rgba(255, 255, 255, 0.7); 
-          backdrop-filter: blur(12px); 
-          border: 1px solid rgba(255, 255, 255, 0.2); 
-        }
-        .dark .glass { 
-          background: rgba(15, 23, 42, 0.7); 
-          border: 1px solid rgba(255, 255, 255, 0.05); 
-        }
-        
-        @keyframes float {
-          0% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-10px) rotate(2deg); }
-          100% { transform: translateY(0px) rotate(0deg); }
-        }
-        .animate-float { animation: float 4s ease-in-out infinite; }
-        
-        @keyframes logo-reveal {
-          0% { clip-path: inset(100% 0 0 0); transform: translateY(20px); opacity: 0; }
-          100% { clip-path: inset(0 0 0 0); transform: translateY(0); opacity: 1; }
-        }
-        .logo-reveal { animation: logo-reveal 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards; }
-
-        /* Hide scrollbars but keep functionality */
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-    </style>
-<script type="module" src="/index.tsx"></script>
-</head>
-<body class="light bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silk AI</title>
+  </head>
+  <body>
     <div id="root"></div>
 <script type="module" src="/index.tsx"></script>
-<script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
