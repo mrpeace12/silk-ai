@@ -1,0 +1,8 @@
+{
+  "name": "SILK AI",
+  "description": "High-performance intelligence nexus specializing in unrestricted political analysis, religious scholarship, and rapid engineering workflows. Engineered for speed and granular detail.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
